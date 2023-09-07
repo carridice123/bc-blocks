@@ -1,0 +1,49 @@
+.nav{
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.firstNav{
+    width: 100%;
+    height: 4rem;
+    flex-wrap: wrap;
+    background-color: #042;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius: 7px;
+
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    /* border: 1px solid black; */
+    height: 3rem;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #ffe
+
+}
+/* second Nav------------ */
+
+.logoContainer{
+    display: flex;
+    /* border: 1px solid black; */
+    padding-bottom: 20px;
+
+}
+.img{
+    /* border: 1px solid black; */
+   max-width: 40%;
+}
+.secondNav{
+    min-width: 50%;
+    margin-top: 40px;
+}
+.secondUl{
+    display: flex;
+    width: 100%;
+    justify-content: space-around ;
+    align-items: center;
+    /* border: 1px solid black; */
+    padding-right: 20px;
+    
+}
