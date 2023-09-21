@@ -1,0 +1,5 @@
+.drop {
+  border: 1px solid black;
+  background-color: #fff;
+  z-index: 2;
+}

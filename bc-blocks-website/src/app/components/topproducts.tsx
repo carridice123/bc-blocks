@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/topproducts.module.css";
 const TopProducts = () => {
   return (
@@ -7,7 +8,7 @@ const TopProducts = () => {
       <div className={styles.imgContainer}>
         <div className={styles.card}>
           <Image
-            src="/blocks.png"
+            src="/blocks3.png"
             alt="image of blocks"
             width={100}
             height={100}
@@ -21,17 +22,17 @@ const TopProducts = () => {
             alt="image of cements"
             width={300}
             height={100}
-            className={styles.img1}
+            className={styles.img2}
           ></Image>
           <h4>Carib Cements</h4>
         </div>
         <div className={styles.card}>
           <Image
-            src="/steel.png"
+            src="/steel3.png"
             alt="image of steels"
             width={300}
             height={100}
-            className={styles.img1}
+            className={styles.img3}
           ></Image>
           <h4>Steels</h4>
         </div>
@@ -41,11 +42,17 @@ const TopProducts = () => {
             alt="image of windows and doors"
             width={300}
             height={100}
-            className={styles.img1}
+            className={styles.img4}
           ></Image>
           <h4>Doors</h4>
         </div>
       </div>
+      <section className={styles.salessection}>
+        <h2 className={styles.onsale}>Products on sale</h2>
+        <span className={styles.sales}>
+          Massive discount available upto November 30th
+        </span>
+      </section>
     </section>
   );
 };

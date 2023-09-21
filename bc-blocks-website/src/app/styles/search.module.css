@@ -1,20 +1,9 @@
-.content{
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    overflow: hidden;
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
 }
-
-.searchbar{
-    display: flex;
-    gap: 5px;
-    width: 100%;
-    margin-left: 10px;
-}
-.srch{
-    border: 1px solid black;
-    border-radius: 50px ;
-    background-color: #eff;
-    width: 60%;
-    padding-left: 10px;
+.imgs {
+  filter: brightness(65%);
 }

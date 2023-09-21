@@ -1,6 +1,6 @@
 import styles from "../styles/nav.module.css";
 import Image from "next/image";
-
+import Input from "./inputs";
 const Navbar = () => {
   return (
     <section className={styles.nav}>
@@ -20,14 +20,9 @@ const Navbar = () => {
           height={300}
           className={styles.img}
         ></Image>
-        <nav className={styles.secondNav}>
-          <ul className={styles.secondUl}>
-            <li>Inventory</li>
-            <li>On Sale</li>
-            <li>Contact us</li>
-            <li>My Cart</li>
-          </ul>
-        </nav>
+        <div className={styles.searchbar}>
+          <Input />
+        </div>
       </div>
     </section>
   );
