@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Dropdown from "./dropdown";
 import styles from "../styles/inventorynavs.module.css";
+import DropMen from "./reactdropexperment";
 function Inventorynavs() {
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
@@ -25,17 +26,19 @@ function Inventorynavs() {
   };
 
   return (
-    <>
-      <nav className={styles.navbar}>
+    <section className={styles.sectionf}>
+      <ul className={styles.navuls}>
+        <li
+          className={styles.navitemdrop}
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+        >
+          Inventory
+          {dropdown && <Dropdown />}
+        </li>
+      </ul>
+      <nav>
         <ul className={styles.navul}>
-          <li
-            className={styles.navitemdrop}
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
-          >
-            Inventory <i className="fas fa-caret-down" />
-            {dropdown && <Dropdown />}
-          </li>
           <li className={styles.navitem}>
             <Link href="/mycart" className={styles.navlinks}>
               Cart
@@ -48,13 +51,12 @@ function Inventorynavs() {
           </li>
           <li className={styles.navitem}>
             <Link href="#sales" className={styles.navlinks}>
-              On-sale
-              <i className="fas fa-caret-down" />
+              onSale
             </Link>
           </li>
         </ul>
       </nav>
-    </>
+    </section>
   );
 }
 

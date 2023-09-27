@@ -3,8 +3,29 @@
   display: flex;
   align-items: center;
   font-size: 1.2rem;
-}
+  padding: 1rem 1rem;
 
+  /* border: 1px solid black; */
+  width: 30%;
+  padding-top: 10px;
+}
+.navuls {
+  /* border: 1px solid black; */
+  align-items: center;
+  padding: 1.482rem 1rem;
+  font-size: 1.2rem;
+
+  width: 100px;
+  height: auto;
+}
+.sectionf {
+  display: flex;
+  width: 30%;
+  height: 60px;
+  flex-direction: row;
+  padding-left: 15px;
+  /* border: 1px solid black; */
+}
 .navbarlogo {
   color: #fff;
   justify-self: start;
@@ -12,11 +33,6 @@
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
-}
-
-.fa-firstdraft {
-  margin-left: 0.5rem;
-  font-size: 1.6rem;
 }
 
 .navmenu {
@@ -37,12 +53,12 @@
 }
 .navitemdrop {
   gap: 18px;
-  margin-top: 50px;
   display: flex;
   align-items: center;
-  height: 80px;
+  width: 100%;
+  height: auto;
   flex-direction: column;
-  z-index: 2;
+  /* border: 1px solid black; */
 }
 .navlinks {
   color: black;
