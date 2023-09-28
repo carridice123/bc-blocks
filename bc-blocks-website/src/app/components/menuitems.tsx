@@ -1,22 +1,47 @@
 export const MenuItems = [
   {
-    title: "Marketing",
-    path: "/marketing",
+    title: "Blocks",
+    path: "/blocks",
     cName: "dropdown-link",
   },
   {
-    title: "Consulting",
-    path: "/consulting",
+    title: "Steel",
+    path: "/steel",
     cName: "dropdown-link",
   },
   {
-    title: "Design",
-    path: "/design",
+    title: "Cement",
+    path: "/cement",
     cName: "dropdown-link",
   },
   {
-    title: "Development",
-    path: "/development",
+    title: "Doors",
+    path: "/doors",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Windows",
+    path: "/windows",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Tiles",
+    path: "/tiles",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Lumber",
+    path: "/lumber",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Palate",
+    path: "/palate",
+    cName: "dropdown-link",
+  },
+  {
+    title: "Zinc",
+    path: "/zinc",
     cName: "dropdown-link",
   },
 ];
